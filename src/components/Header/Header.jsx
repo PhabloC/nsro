@@ -14,11 +14,11 @@ export default function Header() {
 
         {/* Links */}
         <nav className="flex space-x-8 text-white font-medium">
-          <p className="cursor-pointer hover:text-gray-300">DOWNLOAD</p>
-          <p className="cursor-pointer hover:text-gray-300">NOTÍCIAS</p>
-          <p className="cursor-pointer hover:text-gray-300">CONTATO</p>
-          <p className="cursor-pointer hover:text-gray-300">DOAÇÃO</p>
-          <p className="cursor-pointer hover:text-gray-300">REGISTRO</p>
+          <p className="cursor-pointer hover:text-[#F97718]">DOWNLOAD</p>
+          <p className="cursor-pointer hover:text-[#F97718]">NOTÍCIAS</p>
+          <p className="cursor-pointer hover:text-[#F97718]">CONTATO</p>
+          <p className="cursor-pointer hover:text-[#F97718]">DOAÇÃO</p>
+          <p className="cursor-pointer hover:text-[#F97718]">REGISTRO</p>
         </nav>
 
         {/* Redes sociais */}
