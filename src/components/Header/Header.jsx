@@ -5,11 +5,11 @@ import Discord from "../../assets/Header/discord.png";
 
 export default function Header() {
   return (
-    <header className="fixed top-0 left-0 w-full bg-transparent z-50">
+    <header className="fixed top-0 left-0 w-full bg-black bg-opacity-50 z-50">
       <div className="flex items-center justify-between px-8 py-4">
         {/* Logo */}
         <div className="flex-shrink-0">
-          <img src={Logo} alt="Logo" className="h-12" />
+          <img src={Logo} alt="Logo" className="h-16 w-50" />
         </div>
 
         {/* Links */}
