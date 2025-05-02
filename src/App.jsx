@@ -6,6 +6,7 @@ import Noticias from "./components/Noticias/Noticias";
 import InstallGuide from "./components/Instalacao/InstallGuide";
 import Faq from "./components/Faq/Faq";
 import Download from "./components/Download/Download";
+import Kg from "./components/Kg/Kg";
 
 export default function App() {
   return (
@@ -13,6 +14,7 @@ export default function App() {
       <Header />
       <Banner />
       <Features />
+      <Kg />
       <Noticias />
       <InstallGuide />
       <Faq />
