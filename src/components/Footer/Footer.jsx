@@ -6,16 +6,13 @@ import FooterBg from "../../assets/Footer/footer-bg.png";
 
 export default function Footer() {
   return (
-    <footer
-      className="relative w-full h-[100vh] bg-cover bg-center flex flex-col justify-between overflow-hidden"
-      style={{ backgroundImage: `url(${FooterBg})` }}
-    >
+    <footer className="bg-gray-950 relative w-full h-[100vh] bg-cover bg-center flex flex-col justify-between overflow-hidden">
       {/* Conteúdo principal */}
       <div className="container mx-auto flex items-center h-full text-white ml-[60px] mt-24  ">
         {/* Logo, Texto e Redes Sociais - Alinhado à esquerda e centrado verticalmente */}
         <div className="flex flex-col items-start space-y-4 ">
           <img src={Logo} alt="Logo" className="h-24" />
-          <p className="text-sm text-left max-w-xs">
+          <p className="text-[16px] text-left max-w-xs">
             Uma experiência única de MMORPG que combina o universo de Naruto com
             a jogabilidade clássica de Ragnarok Online.
           </p>
