@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BannerBg from "../../assets/Banner/banner-bg.jpg";
+import BannerBg from "../../assets/Banner/banner-new.webp";
 
 export default function Banner() {
   const [scrollY, setScrollY] = useState(0);
