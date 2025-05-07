@@ -66,7 +66,7 @@ export default function Download() {
                   <FaHdd className="text-orange-500 mr-2" /> Tamanho do Cliente
                 </h4>
                 <p className="text-white/70 text-sm">
-                  Cliente Completo: 5.2 GB • Patch Incremental: 800 MB
+                  Cliente Completo: 5.2 GB
                 </p>
               </div>
             </div>
@@ -96,7 +96,7 @@ export default function Download() {
               </button>
 
               <p className="text-white/70 text-xs mt-4">
-                Versão 1.2.5 • Atualizado em 15/06/2025
+                Versão 1.2.5 • Atualizado em 07/05/2025
               </p>
             </div>
           </div>

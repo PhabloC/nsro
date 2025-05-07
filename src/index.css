@@ -11,9 +11,9 @@ html {
   font-family: "Poppins", sans-serif;
 }
 
-body {
+/* body {
   cursor: url("./assets/cursor.cur"), auto;
-}
+} */
 
 .custom-pagination {
   display: flex;

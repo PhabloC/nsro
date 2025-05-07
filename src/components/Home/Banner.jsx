@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import BannerBg from "../../assets/Banner/banner-new.webp";
+import BannerBg from "../../assets/Banner/banner-new8.jpg";
 
 export default function Banner() {
   const [scrollY, setScrollY] = useState(0);
@@ -30,8 +30,8 @@ export default function Banner() {
 
       {/* Content */}
       <div className="container mx-auto px-4 z-20">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-white text-4xl md:text-6xl font-poppins font-bold leading-tight mb-6">
+        <div className="max-w-3xl mx-auto text-center ">
+          <h1 className=" text-white text-4xl md:text-6xl font-poppins font-bold leading-tight mb-6">
             <span className="block">Entre no mundo de</span>
             <span className="text-orange-500">
               Naruto Shippuden Ragnarok Online

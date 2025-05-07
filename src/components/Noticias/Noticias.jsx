@@ -29,7 +29,7 @@ export default function News() {
         </div>
 
         {/* Grid de notícias */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-center items-center ">
           {newsItems.map((item) => (
             <div
               key={item.id}
