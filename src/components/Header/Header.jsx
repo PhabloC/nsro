@@ -40,7 +40,15 @@ export default function Header() {
         <div className="flex justify-between items-center">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <img src={Logo} alt="Logo" className="h-16 w-50" />
+            <a
+              href="#"
+              onClick={(e) => {
+                e.preventDefault(); // Evita o comportamento padrão do link
+                window.scrollTo({ top: 0, behavior: "smooth" }); // Rola suavemente para o topo
+              }}
+            >
+              <img src={Logo} alt="Logo" className="h-16 w-50 cursor-pointer" />
+            </a>
           </div>
 
           {/* Desktop Navigation */}

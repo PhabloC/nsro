@@ -4,7 +4,7 @@ import FaqBg from "../../assets/Banner/ramen.jpg";
 
 const faqItems = [
   {
-    question: "Como começar a jogar Naruto Shipuuden Ragnarok Online?",
+    question: "Como começar a jogar Naruto Shippuden Ragnarok Online?",
     answer:
       "Para começar, faça o download do cliente do jogo, crie uma conta gratuita e siga o guia de instalação. Após a instalação, você poderá escolher sua aldeia ninja e começar sua jornada.",
   },
@@ -71,8 +71,8 @@ export default function FAQ() {
             Perguntas <span className="text-orange-500">Frequentes</span>
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
-            Encontre respostas para as dúvidas mais comuns sobre Naruto Ragnarok
-            Online.
+            Encontre respostas para as dúvidas mais comuns sobre Naruto
+            Shippuden Ragnarok Online.
           </p>
         </div>
 

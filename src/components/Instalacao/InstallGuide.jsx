@@ -46,7 +46,7 @@ export default function InstallGuide() {
           </h2>
           <p className="text-white/70 max-w-2xl mx-auto">
             Siga estes passos simples para começar sua jornada em Naruto
-            Ragnarok Online.
+            Shippuden Ragnarok Online.
           </p>
         </div>
 
