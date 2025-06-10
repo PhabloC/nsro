@@ -32,8 +32,7 @@ export default function Banner() {
       <div className="container mx-auto px-4 z-20">
         <div className="max-w-3xl mx-auto text-center ">
           <h1 className=" text-white text-4xl md:text-6xl font-poppins font-bold leading-tight mb-6">
-            <span className="block">Entre no mundo de</span>
-            <span className="text-orange-500">
+            <span className="text-orange-500 naruto-fonte">
               Naruto Shippuden Ragnarok Online
             </span>
           </h1>

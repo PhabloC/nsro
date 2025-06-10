@@ -1,6 +1,5 @@
-import React from "react";
-import { FaCalendarAlt, FaChevronRight } from "react-icons/fa"; // Substituindo os ícones por react-icons
-import BgImg from "../../assets/Banner/faq-bg.jpg"; // Imagem de fundo para a seção de notícias
+import { FaCalendarAlt, FaChevronRight } from "react-icons/fa";
+import BgImg from "../../assets/Banner/faq-bg.jpg";
 
 const newsItems = [
   {
@@ -9,7 +8,7 @@ const newsItems = [
     excerpt:
       "Estamos em fase de desenvolvimento e planejamos lançar uma grande atualização em breve.",
     date: "02/05/2025",
-    image: BgImg, // Corrigido: Removidas as chaves ao redor de BgImg
+    image: BgImg,
     category: "Atualização",
   },
 ];

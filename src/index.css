@@ -38,3 +38,14 @@ html {
   transform: scale(1.2);
   box-shadow: 0 0 10px rgba(255, 127, 80, 0.8);
 }
+
+@font-face {
+  font-family: "NarutoFonte";
+  src: url("./fonts/njnaruto.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.naruto-fonte {
+  font-family: "NarutoFonte", sans-serif;
+}
