@@ -1,12 +1,33 @@
-# React + Vite
+# NSRO - Naruto Shippuden Ragnarok Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este projeto é um site para um servidor de Ragnarok Online com temática de Naruto. O objetivo é apresentar informações, novidades, downloads e recursos para a comunidade do servidor.
 
-Currently, two official plugins are available:
+## Sobre o Projeto
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Inspirado no universo de Naruto, trazendo a experiência MMORPG clássica de Ragnarok Online com elementos, clãs e personagens do anime.
+- O site oferece áreas para download do cliente, notícias, guias, informações sobre sistemas do jogo, FAQ, doações e mais.
+- Interface moderna, responsiva e com animações para engajar a comunidade.
 
-## Expanding the ESLint configuration
+## Tecnologias Utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** (biblioteca principal para construção da interface)
+- **Vite** (ferramenta de build e desenvolvimento rápido)
+- **Tailwind CSS** (estilização moderna e responsiva)
+- **Swiper.js** (carrosséis e sliders)
+- **React Icons** (ícones)
+- **ESLint** (padronização de código)
+
+## Hospedagem
+
+O site está hospedado na [Vercel](https://nsro-amber.vercel.app/), garantindo alta performance e deploy contínuo.
+
+## Como rodar localmente
+
+```bash
+npm install
+npm run dev
+```
+
+## Licença
+
+Projeto para fins de estudo e comunidade. Não oficial da Gravity ou dos criadores de Naruto.
